@@ -1,4 +1,5 @@
 #include "mbed.h"
+#include <cstdio>
 
 // main() runs in its own thread in the OS
 
@@ -22,6 +23,7 @@ int main()
          term_2 = next_term;
          printf("%d,", next_term);
     }
+    printf("\r\n");
     while (true) {
 
     }
